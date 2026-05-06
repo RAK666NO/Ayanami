@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Ayanami.vcxproj" Id="05fb729f-b267-4248-8343-9da59fb83da0" />
+</Solution>

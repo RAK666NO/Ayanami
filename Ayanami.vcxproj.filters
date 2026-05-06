@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ayanami.slnx" />
+    <None Include="x64\Debug\Ayanami.pdb" />
+    <None Include="x64\Debug\libgcc_s_seh-1.dll" />
+    <None Include="x64\Debug\libstdc++-6.dll" />
+    <None Include="x64\Debug\libvosk.dll" />
+    <None Include="x64\Debug\libwinpthread-1.dll" />
+    <None Include="models\vosk-model-small-ru-0.22\am\final.mdl" />
+    <None Include="models\vosk-model-small-ru-0.22\conf\mfcc.conf" />
+    <None Include="models\vosk-model-small-ru-0.22\conf\model.conf" />
+    <None Include="models\vosk-model-small-ru-0.22\graph\disambig_tid.int" />
+    <None Include="models\vosk-model-small-ru-0.22\graph\Gr.fst" />
+    <None Include="models\vosk-model-small-ru-0.22\graph\HCLr.fst" />
+    <None Include="models\vosk-model-small-ru-0.22\ivector\final.dubm" />
+    <None Include="models\vosk-model-small-ru-0.22\ivector\final.ie" />
+    <None Include="models\vosk-model-small-ru-0.22\ivector\final.mat" />
+    <None Include="models\vosk-model-small-ru-0.22\ivector\global_cmvn.stats" />
+    <None Include="models\vosk-model-small-ru-0.22\ivector\online_cmvn.conf" />
+    <None Include="models\vosk-model-small-ru-0.22\ivector\splice.conf" />
+    <None Include="models\vosk-model-small-ru-0.22\graph\phones\word_boundary.int" />
+    <None Include="x64\Debug\Ayanami.exe" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\am\final.mdl" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\conf\mfcc.conf" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\conf\model.conf" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\graph\disambig_tid.int" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\graph\Gr.fst" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\graph\HCLr.fst" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\ivector\final.dubm" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\ivector\final.ie" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\ivector\final.mat" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\ivector\global_cmvn.stats" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\ivector\online_cmvn.conf" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\ivector\splice.conf" />
+    <None Include="x64\Debug\models\vosk-model-small-ru-0.22\graph\phones\word_boundary.int" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libvosk.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vosk_api.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sprites\avatar_drag.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="sprites\avatar_static.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="x64\Debug\sprites\avatar_drag.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="x64\Debug\sprites\avatar_static.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="x64\Debug\avatar.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Ayanami\avatar.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
